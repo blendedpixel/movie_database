@@ -16,11 +16,6 @@ class App {
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery("select * from customer");
 
-            // Store in ArrayList
-
-            // Arraylist to store customer accounts
-            ArrayList<String> customerAccounts = new ArrayList<String>();
-
             // Add to ArrayList
             if (rs.next()) {
 
@@ -38,9 +33,6 @@ class App {
 
             // Close connection
             con.close();
-
-            System.out.println("<< Customer Accounts >>");
-            System.out.println(customerAccounts);
 
         } catch (Exception e) {
 
