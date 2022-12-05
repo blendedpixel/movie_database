@@ -1,0 +1,14 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "d:\\Zamtel\\jar files\\mysql-connector-java-8.0.30.jar"
+        ],
+        "exclude": [
+            "c:\\Program Files\\Microsoft JDBC DRIVER 11.2 for SQL Server\\sqljdbc_11.2\\enu\\mssql-jdbc-11.2.1.jre11.jar",
+            "c:\\Program Files\\Microsoft JDBC DRIVER 11.2 for SQL Server\\sqljdbc_11.2\\enu\\mssql-jdbc-11.2.1.jre11.jar"
+        ]
+    }
+}
